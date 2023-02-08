@@ -1,112 +1,14 @@
 [
     {
-        "python": [
-            {
-                "CourseName": "Introduction To python (basic)",
-                "Level": "Beginner",
-                "CourseAccessPoint": {
-                    "paid": false,
-                    "user_entry_max": 500,
-                    "fee": 0,
-                    "multiple_user_access_onsingleId": true
-                },
-                "promotag" : "Only 500 members are allowed !",
-                "rating": 8,
-                "description": "Learn Python ",
-                "image": "/assets/images/python/basic_python_thumbnail.png"
-            },
-            {
-                "CourseName": "Introduction To python (Intermediate)",
-                "Level": "Intermediate",
-                "CourseAccessPoint": {
-                    "paid": true,
-                    "user_entry_max": true,
-                    "fee": 200,
-                    "multiple_user_access_onsingleId": false
-                },
-                "promotag" : "Available for all members",
-                "rating": 9,
-                "description": "Learn Python ",
-                "image": "/assets/images/python/intermediate_python_thumbnail.png"
-            },
-            {
-                "CourseName": "Introduction To python (Advanced)",
-                "Level": "Advanced",
-                "CourseAccessPoint": {
-                    "paid": true,
-                    "user_entry_max": true,
-                    "fee": 500,
-                    "multiple_user_access_onsingleId": false
-                },
-                "promotag" : "Available for all members",
-                "rating": 8,
-                "description": "Learn Python ",
-                "image": "/assets/images/python/advanced_python_thumbnail.png"
-            }
-        ]
+        "name": "Name",
+        "desc": "Lorem Ipsum"
     },
     {
-        "javascript": [
-            {
-                "CourseName": "Introduction To javascript (basic)",
-                "Level": "Beginner",
-                "CourseAccessPoint": {
-                    "paid": false,
-                    "user_entry_max": 500,
-                    "fee": 0,
-                    "multiple_user_access_onsingleId": true
-                },
-                "promotag" : "Only 500 members are allowed !",
-                "rating": 8,
-                "description": "Learn Python ",
-                "image": "/assets/images/javascript/basic_javascript_thumbnail.png"
-            },
-            {
-                "CourseName": "Introduction To javascript (Intermediate)",
-                "Level": "Intermediate",
-                "CourseAccessPoint": {
-                    "paid": true,
-                    "user_entry_max": true,
-                    "fee": 200,
-                    "multiple_user_access_onsingleId": false
-                },
-                "promotag" : "Available for all members",
-                "rating": 9,
-                "description": "Learn Python ",
-                "image": "/assets/images/javascript/intermediate_javascript_thumbnail.png"
-            },
-            {
-                "CourseName": "Introduction To javascript (Advanced)",
-                "Level": "Advanced",
-                "CourseAccessPoint": {
-                    "paid": true,
-                    "user_entry_max": true,
-                    "fee": 500,
-                    "multiple_user_access_onsingleId": false
-                },
-                "promotag" : "Available for all members",
-                "rating": 8,
-                "description": "Learn Python ",
-                "image": "/assets/images/javascript/advanced_javascript_thumbnail.png"
-            }
-        ]
+        "name": "Name",
+        "desc": "Lorem Ipsum"
     },
     {
-        "ethicalhacking": [
-            {
-                "CourseName": "Learn Ethical Hacking Program for free(basic)",
-                "Level": "Beginner",
-                "CourseAccessPoint": {
-                    "paid": false,
-                    "user_entry_max": 1000,
-                    "fee": 0,
-                    "multiple_user_access_onsingleId": true
-                },
-                "promotag" : "Only 10000 members are allowed !",
-                "rating": 9,
-                "description": "Learn Python ",
-                "image": "/assets/images/ethicalhacking/basic_ethicalhacking_thumbnail.png"
-            }
-        ]
+        "name": "Name",
+        "desc": "Lorem Ipsum"
     }
 ]

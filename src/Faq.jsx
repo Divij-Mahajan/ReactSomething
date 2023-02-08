@@ -1,25 +1,23 @@
 import './App.css'
 import { Accordion, AccordionDetails, AccordionSummary, Box, Typography } from '@mui/material'
-import faqs from "./assets/Faqs.json"
-
+import data from "./assets/data/FaqData.json"
 
 function Faq() {
-  console.log(faqs)
   return (
     <Box sx={{ px: "10%" }}>
       <Typography variant='h2' sx={{ textAlign: "left" }}>Faqs</Typography>
       {
-        faqs.data.map((d, i) => {
+        data.map((d, i) => {
           return (
-            <Accordion key={i} sx={{ display: "flex", alignItems: "space-between" }}>
+            <Accordion key={i} sx={{ display: "flex", alignItems: "space-between", flexDirection: "column", margin: "5" }}>
               <AccordionSummary>
                 <Typography >
                   {d.Question}
                 </Typography>
               </AccordionSummary>
               <AccordionDetails>
-                <Typography>
-                  {d.Description}
+                <Typography sx={{ textAlign: "left" }}>
+                  {d.Answer}
                 </Typography>
               </AccordionDetails>
             </Accordion>

@@ -1,27 +1,16 @@
-import './App.css'
-import { Avatar, List, ListItem, ListItemAvatar, ListItemText, Paper, Typography } from "@mui/material"
-import React from 'react'
-
-
+import { Avatar, Divider, List, ListItem, ListItemAvatar, ListItemText, Paper, Typography } from "@mui/material"
+import React from "react"
+import data from "./assets/data/CourseData.json"
 function Courses() {
-    let data = [
-        {
-            "username": "Divij",
-            "uerid": "id",
-            "feedback": "Hell"
-        }
-    ]
-
     return (
-
-        <List sx={{ px: "10%", width: '100%', maxWidth: 360, bgcolor: 'background.paper' }}>
+        <List sx={{ px: "10%", width: '100%', maxWidth: 360, bgcolor: 'background.paper', display: "flex", flexDirection: "row", alignItems: "space-between" }}>
             {
                 data.map((d, i) => {
                     return (
-                        <ListItem alignItems="flex-start" key={i}>
-                            <Paper>
+                        <Paper key={i} >
+                            <ListItem alignItems="flex-start">
                                 <ListItemText
-                                    primary={d.username}
+                                    primary={d.name}
                                     secondary={
                                         <React.Fragment>
                                             <Typography
@@ -30,14 +19,14 @@ function Courses() {
                                                 variant="body2"
                                                 color="text.primary"
                                             >
-                                                {d.feedback}
+                                                {d.desc}
                                             </Typography>
                                         </React.Fragment>
-
                                     }
                                 />
-                            </Paper>
-                        </ListItem>
+                            </ListItem>
+
+                        </Paper>
                     )
                 })
             }
@@ -45,5 +34,6 @@ function Courses() {
         </List>
     )
 }
+
 
 export default Courses
